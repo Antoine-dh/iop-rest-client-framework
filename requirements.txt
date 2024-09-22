@@ -1,0 +1,7 @@
+dataclasses-json>=0.5.7
+requests>=2.31.0
+iris-pex-embedded-python>=3.0.0
+uplink>=0.9.7
+pydantic>=2.9
+prance[osv]>=23.6.21.0
+datamodel-code-generator>=0.26.0
