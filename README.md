@@ -192,3 +192,4 @@ Keep in mind this is a proof of concept, and not a finished product, do not use 
 - Exceptions are not currently handled properly
 - Endpoints that returns JSON lists at the root of the HTTP body are not supported, this is due to a technical limitation with IOP messages that needs to be wrapped into a singular class, see [issue](https://github.com/grongierisc/interoperability-embedded-python/issues/25)
 - Models' schemas inside OpenAPI specs are expected to be defined in `#/components/schemas/`, and responses to be `$ref`s to thoses schemas
+
